@@ -1,0 +1,21 @@
+condition1,condition2,condition3,condition4,conclusion
+ninja des sciences,en prepa,se tue au travail,,va à Polytechnique
+assez fort,en prepa,boit des bières tous les jeudis,,va à Polytech
+ninja des sciences,en prepa,boit des bières tous les jeudis,,va à Centrale
+va à Centrale,geek,a C.Jazzar en TD,,devient hacker
+va à Centrale,n’aime pas les sciences,se tue au travail,va aux CM de C.Jazzar,devient ingénieur
+va à Centrale,n’aime pas les sciences,au bar’bu,,ne va pas en CM
+chômage,a piston,,,devient ingénieur
+va à Polytech,pas de piston,,,chômage
+va à Centrale,à la farigoule,au bar’bu,,ne valide pas
+va à Centrale,a P.Denis,,,ne valide pas
+ne valide pas,rate un training,,,redouble
+redouble,a une vie sociale,ne triche pas au partiel,,chômage
+est Valentin Billa,chômage,,,devient hacker
+ninja des sciences,va à Centrale,a C.Jazzar en TD,,est Valentin Billa
+péril en la demeure,est en training Système Expert,,,rate un training
+code en Java,pas de constructeur,,,péril en la demeure
+péril en la demeure,ne va pas en CM,,,est Joris
+va à Centrale,a C.Jazzar en TD,va aux CM de C.Jazzar,,devient Elon Musk
+ninja des sciences,devient hacker,a un garage,,devient Elon Musk
+devient Elon Musk,péril en la demeure,,,faillite de Twitter
