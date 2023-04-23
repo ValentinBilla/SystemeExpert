@@ -51,6 +51,8 @@ public class Fenetre extends JFrame {
         getContentPane().add(quit);
         quit.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                selection.sauvegarder(FICHIER_FAITS);
+                deduits.sauvegarder(FICHIER_DEDUITS);
                 System.exit(0);
             }
         });
@@ -86,7 +88,6 @@ public class Fenetre extends JFrame {
         ajouter.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 selection.addFait(getSelected());
-                System.out.println(selection);
             }
         });
 
@@ -96,7 +97,6 @@ public class Fenetre extends JFrame {
         supprimer.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 selection.delFait(getSelected());
-                System.out.println(selection);
             }
         });
         
@@ -146,7 +146,7 @@ public class Fenetre extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 selection.sauvegarder(FICHIER_FAITS);
                 deduits.charger(FICHIER_FAITS);
-                // moteur.chainageArriere();
+                System.out.println(moteur.chainageArriere(getSelected()));
             }
         });
 
